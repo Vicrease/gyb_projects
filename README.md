@@ -28,8 +28,7 @@ HAPPY CODING!!
 
 
 ## 🔗 Links
-[![getyourbook](![gyb_logo_192](https://user-images.githubusercontent.com/117503011/211116853-c54c7fd6-3854-47c2-9a2d-41ca38039360.jpg)
-)](https://gybpatna.netlify.app/)
 
+[![gyb_logo_64](https://user-images.githubusercontent.com/117503011/211117557-44e7032d-d201-427b-a3d2-f4b5b6049b0c.jpg)](https://gybpatna.netlify.app/)
 
 
