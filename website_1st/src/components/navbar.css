@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Sansita");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sansita";
+  background-color: #ffce33;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* navbar style start  */
+
+.main-nav {
+  width: 100%;
+  height: 10 rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
+  box-shadow: #ffffff 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.logo {
+  display: grid;
+  grid-column: 1/3;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-link {
+  grid-column: 3/4;
+  /* font-family: "Jost"; */
+}
+
+.menu-link ul {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media {
+  grid-column: 4/5;
+}
+
+.social-media ul {
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 3fr repeat(3, 1fr);
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.social-media ul li {
+  text-align: right;
+}
+
+.social-media ul li:first-child {
+  grid-column: 2/3;
+}
+
+/* ----------- Grid part ends ----------------- */
+
+.logo h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-clip: text;
+  font-family: "Sansita";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #14140afa;
+}
+
+.logo h2 span {
+  font-size: 3.5rem;
+  text-decoration: double;
+}
+
+.menu-link ul li {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.menu-link ul li a {
+  text-transform: capitalize;
+  color: rgba(0, 0, 3, 0.8);
+  transition: 0.5s;
+}
+.menu-link ul li:hover > a {
+  transform-origin: left;
+  color: rgba(0, 0, 3, 1);
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.social-media ul li {
+  font-size: 1.8rem;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #c32aa3;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.img {
+  width: fit-content;
+  text-align: right;
+  float: left;
+}
+img {
+  max-width: 30%;
+  height: auto;
+}
