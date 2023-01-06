@@ -7,7 +7,7 @@ The website is still under development.
 
 #  Get Your Book-Website_Clone
 
-This website is a one-stop destination for all your needs of studying in college. With a clean and intuitive interface, it will be easy for a student to browse and search notes of all subjects. 
+This website is a one-stop destination for all your needs of studying in an "engineering" college. With a clean and intuitive interface, it will be easy for a student to browse and search notes of all subjects. 
 
 NOTE -  An advanced search functionality will also be implemented to help a student find exactly what they're looking for.
 
